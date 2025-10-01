@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_find_house_app/pages/SplashScreen.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 void main() {
@@ -11,23 +12,6 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Flutter Demo',
-      debugShowCheckedModeBanner: false,
-      home: Scaffold(
-        appBar: AppBar(
-          title: Text(
-            'Flutter Find House App',
-            style: GoogleFonts.poppins(
-              fontWeight: FontWeight.w600,
-              fontSize: 18,
-            ),
-          ),
-          backgroundColor: Colors.blueAccent,
-          elevation: 10,
-        ),
-        body: Center(child: Text("Welcome to the find house app!")),
-      ),
-    );
+    return MaterialApp(debugShowCheckedModeBanner: false, home: SplashScreen());
   }
 }
