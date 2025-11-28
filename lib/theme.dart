@@ -33,3 +33,4 @@ TextStyle regulerTextStyle = GoogleFonts.poppins(
   fontWeight: FontWeight.w400,
   color: blackColor,
 );
+
